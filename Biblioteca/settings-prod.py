@@ -123,3 +123,5 @@ STATIC_URL = '/static/'
 
 # Se define la URL para login
 LOGIN_URL = "/login/"
+
+STATIC_ROOT = os.path.join(BASE_DIR, "static")
